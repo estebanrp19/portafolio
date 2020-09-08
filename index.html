@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Esteban Romero </title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <Body>
+        <header>
+            <div class="contenedor">
+                <nav class="menu">
+                    <a href="#Acerca">Acerca de</a>
+                    <a href="#Practicas">Practicas</a>
+                    <a href="#openModal">Contacto</a>
+                    <div id="openModal" class="modalDialog">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <h1>Contacto</h1>
+                            <p>+573152447623</p>
+                            <p>esteban.r1905@gmail.com</p>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="contenedor-texto">
+                    <div class="texto">
+                        <h1 class="nombre">Esteban Romero</h1>
+                        <h2 class="profesion">Desarrollador web</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="main">
+            <a name="Acerca" id="Acerca"></a>
+            <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/foto.jpg" width="115" height="115" alt="Esteban Romero">
+                </div>
+
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>Mi nombre es Esteban Alberto Romero Pulido, actualmente vivo en la ciudad de Bogota/Colombia y estoy en mis inicios del mundo del desarrollo y diseño web.</p>
+                </div>
+            </div>
+            </section>
+            <a name="Practicas" id="Practicas"></a>
+            <section class="trabajos">
+                <h3 class="titulo">Practicas</h3>
+                <div class="contenedor">
+                    
+                    <div class="contenedor-trabajos">
+                        <!-- <div class="trabajo">
+                            <div class="thumb">
+                                <img src="img/trabajos/1.jpg" alt="Jevas Cosmetics" >
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">Jevas Cosmetics</p>
+                                <p class="categoria">HTML - CSS - JavaScript</p>
+                            </div>
+                        </div> -->
+                        <div class="trabajo">
+                            <div class="thumb">
+                                <a href="../Layout/LayoutBasico.html" target="_blank"><img src="img/trabajos/2.jpg" alt="Layout Basico" ></a>
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">Layout Basico</p>
+                                <p class="categoria">HTML - CSS</p>
+                                <a href="https://github.com/estebanrp19/layout-basico" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="trabajo">
+                            <div class="thumb">
+                                <a href="../Flexbox/Index.html" target="_blank"><img src="img/trabajos/3.jpg" alt="Layout con Flexbox" ></a> 
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">Layout con Flexbox</p>
+                                <p class="categoria">HTML - CSS</p>
+                            </div>
+                        </div>
+                        <div class="trabajo">
+                            <div class="thumb">
+                                <a href="../Calculadora/index.html" target="_blank"><img src="img/trabajos/6.jpg" alt="Calculadora de Suma"></a>
+                            </div>
+                            <div class="descripcion">
+                                <p class="nombre">Calculadora de Suma</p>
+                                <p class="categoria">HTML - CSS - JavaScript</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <footer>
+            <section class="contacto">
+                <h3 class="titulo">Contacto</h3>
+                <div class="contenedor">
+                    <form class="formulario" action="">
+                        <input type="text" placeholder="nombre" name="nombre" required>
+                        <input type="email" placeholder="Correo" name="Correo" required>
+                        <textarea name="Mensaje" placeholder="Mensaje"></textarea>
+                        <input class="boton" type="submit" value="Enviar">  
+                    </form>
+                </div>
+            </section>
+            <section class="redes-sociales">
+                <div class="contenedor">
+                    <a href="https://twitter.com/Estebanrp_19" class="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/estebanrp_19/" class="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100024429486586" class="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <!-- <a href="https://www.youtube.com/channel/UCxqot3enHN6xdmP2jwfxkRA?view_as=subscriber" class="Youtube" target="_blank"><i class="fa fa-youtube-play"></i></a> -->
+                    <!-- <a href="https://www.twitch.tv/estebanrp_19" class="Twitch" target="_blank"><i class="fa fa-twitch"></i></a> -->
+                    <a href="https://wa.link/ppzfwy" class="Whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </section>
+        </footer>
+    </Body>
+</html>
